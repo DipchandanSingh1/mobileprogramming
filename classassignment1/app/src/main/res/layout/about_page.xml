@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="6"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NSC"
+        android:textSize="200px"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is About page"
+        android:textSize="40px"
+        android:layout_weight="1"
+        ></TextView>
+    <Button
+        android:id="@+id/backtomain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Main"
+        ></Button>
+    <Button
+        android:id="@+id/home_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        ></Button>
+    <Button
+        android:id="@+id/services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Servicecs"
+        ></Button>
+    <Button
+        android:id="@+id/contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        ></Button>
+
+</LinearLayout>
