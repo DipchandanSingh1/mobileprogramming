@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/display_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="600px"
+        ></TextView>
+
+    <Button
+        android:id="@+id/add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add one "></Button>
+
+    <Button
+        android:id="@+id/subtract_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtract one "></Button>
+    <Button
+        android:id="@+id/next_screen_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goto Next Page "></Button>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:hint="Enter Url"
+        android:id="@+id/typedvalue"
+        ></EditText>
+
+    <Button
+        android:id="@+id/gottothird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goto third Browser "></Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:id="@+id/newtypedvalue"
+        >
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto fouth activity"
+        android:id="@+id/gotofourth"
+        ></Button>
+
+
+
+</LinearLayout>
